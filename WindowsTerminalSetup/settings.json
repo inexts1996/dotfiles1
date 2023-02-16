@@ -36,6 +36,8 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "experimental.rendering.forceFullRepaint": false,
+    "experimental.rendering.software": true,
     "language": "en-US",
     "launchMode": "default",
     "profiles": 
@@ -48,14 +50,15 @@
             "cursorShape": "filledBox",
             "font": 
             {
-                "face": "Hack NF",
+                "face": "Hack NFM",
                 "weight": "normal"
             },
             "intenseTextStyle": "all",
             "opacity": 60,
             "padding": "5",
             "scrollbarState": "hidden",
-            "useAcrylic": true
+            "useAcrylic": true,
+            "useAtlasEngine": true
         },
         "list": 
         [
