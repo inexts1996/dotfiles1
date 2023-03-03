@@ -23,7 +23,6 @@ Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Alias
-#Set-Alias -Name vim -Value nvim
-#Set-Alias -Name vim -Value neovide
-#Set-Alias -Name nvim -Value neovide
+Set-Alias -Name vi -Value nvim
+Set-Alias -Name vim -Value nvim 
 Set-Alias ll ls
