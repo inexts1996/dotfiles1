@@ -63,7 +63,7 @@
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "Hack NFM",
+                "face": "Hack Nerd Font Mono",
                 "weight": "normal"
             },
             "intenseTextStyle": "all",
@@ -104,30 +104,6 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            },
-            {
-                "guid": "{b260ac16-b51d-5f60-8328-814099940a54}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{9777e9b0-d502-52ad-ba02-4f2994065fc7}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{8bf2d7ce-4310-535d-8cfe-1fe3b5f5a5b1}",
-                "hidden": false,
-                "name": "ArchLinux",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
