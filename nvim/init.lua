@@ -1,3 +1,2 @@
-require "neovide"
 require "basic"
 

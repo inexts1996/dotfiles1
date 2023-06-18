@@ -16,10 +16,6 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,6 +23,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "toggleFocusMode",
@@ -55,9 +55,10 @@
         "defaults": 
         {
             "adjustIndistinguishableColors": "always",
-            "backgroundImage": "C:\\Users\\Administrator\\.config\\dotfiles\\WindowsTerminalSetup\\wallhaven-p9o51m_3840x2160.png",
+            "backgroundImage": "C:\\Users\\Administrator\\.config\\dotfiles\\WindowsTerminalSetup\\wallhaven-rro57q_3840x2160.png",
             "backgroundImageOpacity": 0.2,
-            "colorScheme": "nord",
+            "backgroundImageStretchMode": "uniformToFill",
+            "colorScheme": "One Half Dark (modded)",
             "cursorShape": "filledBox",
             "experimental.retroTerminalEffect": false,
             "font": 
@@ -99,16 +100,34 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-                "hidden": false,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{b260ac16-b51d-5f60-8328-814099940a54}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{9777e9b0-d502-52ad-ba02-4f2994065fc7}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{8bf2d7ce-4310-535d-8cfe-1fe3b5f5a5b1}",
+                "hidden": false,
+                "name": "ArchLinux",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -391,6 +410,7 @@
             "yellow": "#EBCB8B"
         }
     ],
+    "startOnUserLogin": true,
     "tabWidthMode": "compact",
     "themes": [],
     "useAcrylicInTabRow": true
